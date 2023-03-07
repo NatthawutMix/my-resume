@@ -91,7 +91,8 @@ function App() {
     >
       <div
         style={{
-          overflow: "auto",
+          overflowY: "auto",
+          overflowX: "hidden",
           width: "950px",
           backgroundColor: "#fdf7d9",
           boxShadow:
@@ -148,7 +149,7 @@ function App() {
                   style={{
                     marginTop: "16px",
                     width: "200px",
-                    height: "230px",
+                    // height: "230px",
                     borderRadius: "50%",
                     boxShadow:
                       "rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px",
